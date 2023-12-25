@@ -1,5 +1,5 @@
 // We load the plugin here.
-import '@typechain/hardhat'
+import '@collabland/typechain-hardhat'
 import '@nomicfoundation/hardhat-ethers'
 
 import type { HardhatUserConfig } from 'hardhat/types'

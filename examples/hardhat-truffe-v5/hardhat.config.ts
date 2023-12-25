@@ -1,5 +1,5 @@
 import '@nomiclabs/hardhat-truffle5'
-import '@typechain/hardhat'
+import '@collabland/typechain-hardhat'
 import { HardhatUserConfig } from 'hardhat/types'
 
 const config: HardhatUserConfig = {

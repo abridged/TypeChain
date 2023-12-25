@@ -1,5 +1,5 @@
 {
-  "name": "@typechain/starknet",
+  "name": "@collabland/typechain-starknet",
   "description": "🔌 TypeChain target for Starknet",
   "keywords": [
     "starknet",

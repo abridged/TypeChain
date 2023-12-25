@@ -1,4 +1,4 @@
-# @typechain/starknet
+# @collabland/typechain-starknet
 
 ## 0.2.9
 

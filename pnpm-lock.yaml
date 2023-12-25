@@ -68,7 +68,7 @@ importers:
         specifier: ^5.1.3
         version: 5.6.0
     devDependencies:
-      '@typechain/ethers-v5':
+      '@collabland/typechain-ethers-v5':
         specifier: workspace:^11.1.2
         version: link:../../packages/target-ethers-v5
       '@types/bn.js':
@@ -96,7 +96,7 @@ importers:
         specifier: ^5.1.3
         version: 5.6.0
     devDependencies:
-      '@typechain/ethers-v5':
+      '@collabland/typechain-ethers-v5':
         specifier: workspace:^11.1.2
         version: link:../../packages/target-ethers-v5
       '@types/bn.js':
@@ -118,7 +118,7 @@ importers:
         specifier: ^6.1.0
         version: 6.1.0
     devDependencies:
-      '@typechain/ethers-v6':
+      '@collabland/typechain-ethers-v6':
         specifier: workspace:^0.5.1
         version: link:../../packages/target-ethers-v6
       '@types/bn.js':
@@ -140,7 +140,7 @@ importers:
         specifier: ^6.1.0
         version: 6.3.0
     devDependencies:
-      '@typechain/ethers-v6':
+      '@collabland/typechain-ethers-v6':
         specifier: workspace:^0.5.1
         version: link:../../packages/target-ethers-v6
       '@types/bn.js':
@@ -173,10 +173,10 @@ importers:
       '@nomicfoundation/hardhat-ethers':
         specifier: ^3.0.4
         version: 3.0.4(ethers@6.3.0)(hardhat@2.9.9)
-      '@typechain/ethers-v6':
+      '@collabland/typechain-ethers-v6':
         specifier: workspace:^0.5.1
         version: link:../../packages/target-ethers-v6
-      '@typechain/hardhat':
+      '@collabland/typechain-hardhat':
         specifier: workspace:^9.1.0
         version: link:../../packages/hardhat
       '@types/chai':
@@ -230,10 +230,10 @@ importers:
       '@nomiclabs/hardhat-web3':
         specifier: ^2.0.0
         version: 2.0.0(hardhat@2.9.9)(web3@1.7.1)
-      '@typechain/hardhat':
+      '@collabland/typechain-hardhat':
         specifier: workspace:^9.1.0
         version: link:../../packages/hardhat
-      '@typechain/truffle-v5':
+      '@collabland/typechain-truffle-v5':
         specifier: workspace:^8.0.7
         version: link:../../packages/target-truffle-v5
       '@types/bn.js':
@@ -305,7 +305,7 @@ importers:
 
   examples/truffle-v5:
     dependencies:
-      '@typechain/truffle-v5':
+      '@collabland/typechain-truffle-v5':
         specifier: workspace:^8.0.7
         version: link:../../packages/target-truffle-v5
       '@types/bn.js':
@@ -354,7 +354,7 @@ importers:
         specifier: ^1
         version: 1.7.1
     devDependencies:
-      '@typechain/web3-v1':
+      '@collabland/typechain-web3-v1':
         specifier: workspace:^6.0.7
         version: link:../../packages/target-web3-v1
       '@types/bn.js':
@@ -376,7 +376,7 @@ importers:
       '@nomicfoundation/hardhat-ethers':
         specifier: ^3.0.0
         version: 3.0.0(ethers@6.3.0)(hardhat@2.9.9)
-      '@typechain/ethers-v6':
+      '@collabland/typechain-ethers-v6':
         specifier: workspace:^0.5.1
         version: link:../target-ethers-v6
       '@types/fs-extra':
@@ -412,10 +412,10 @@ importers:
       '@nomicfoundation/hardhat-ethers':
         specifier: ^3.0.0
         version: 3.0.0(ethers@6.3.0)(hardhat@2.9.9)
-      '@typechain/ethers-v6':
+      '@collabland/typechain-ethers-v6':
         specifier: workspace:^0.5.1
         version: link:../target-ethers-v6
-      '@typechain/hardhat':
+      '@collabland/typechain-hardhat':
         specifier: workspace:^9.1.0
         version: link:../hardhat
       ethers:
@@ -753,7 +753,7 @@ importers:
 
   packages/test-e2e:
     dependencies:
-      '@typechain/ethers-v5':
+      '@collabland/typechain-ethers-v5':
         specifier: workspace:^11.1.2
         version: link:../target-ethers-v5
       '@types/fs-extra':
@@ -1218,7 +1218,7 @@ packages:
     dependencies:
       '@resolver-engine/imports': 0.3.3
       '@resolver-engine/imports-fs': 0.3.3
-      '@typechain/ethers-v5': 2.0.0(ethers@5.6.0)(typechain@3.0.0)
+      '@collabland/typechain-ethers-v5': 2.0.0(ethers@5.6.0)(typechain@3.0.0)
       '@types/mkdirp': 0.5.2
       '@types/node-fetch': 2.6.1
       ethers: 5.6.0
@@ -3014,7 +3014,7 @@ packages:
     resolution: {integrity: sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==}
     dev: true
 
-  /@typechain/ethers-v5@2.0.0(ethers@5.6.0)(typechain@3.0.0):
+  /@collabland/typechain-ethers-v5@2.0.0(ethers@5.6.0)(typechain@3.0.0):
     resolution: {integrity: sha512-0xdCkyGOzdqh4h5JSf+zoWx85IusEjDcPIwNEHP8mrWSnCae4rvrqB+/gtpdNfX7zjlFlZiMeePn2r63EI3Lrw==}
     peerDependencies:
       ethers: ^5.0.0

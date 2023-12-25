@@ -1,5 +1,5 @@
 {
-  "name": "@typechain/truffle-v5-test",
+  "name": "@collabland/typechain-truffle-v5-test",
   "private": true,
   "version": "1.0.0",
   "license": "MIT",

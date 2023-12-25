@@ -1,5 +1,5 @@
 {
-  "name": "@typechain/truffle-v5",
+  "name": "@collabland/typechain-truffle-v5",
   "description": "🔌 TypeChain target for Truffle-v5",
   "keywords": [
     "truffle-v5",

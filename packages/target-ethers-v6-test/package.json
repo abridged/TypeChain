@@ -1,5 +1,5 @@
 {
-  "name": "@typechain/ethers-v6-test",
+  "name": "@collabland/typechain-ethers-v6-test",
   "private": true,
   "version": "1.0.0",
   "license": "MIT",

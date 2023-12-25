@@ -1,4 +1,4 @@
-# @typechain/hardhat
+# @collabland/typechain-hardhat
 
 ## 9.1.0
 
@@ -10,7 +10,7 @@
 
 - Updated dependencies [3469800]
   - typechain@8.3.2
-  - @typechain/ethers-v6@0.5.1
+  - @collabland/typechain-ethers-v6@0.5.1
 
 ## 9.0.0
 
@@ -18,7 +18,7 @@
 
 - Updated dependencies [04ebda9]
 - Updated dependencies [64d18f7]
-  - @typechain/ethers-v6@0.5.0
+  - @collabland/typechain-ethers-v6@0.5.0
 
 ## 8.0.3
 
@@ -26,7 +26,7 @@
 
 - Updated dependencies [9107713]
   - typechain@8.3.1
-  - @typechain/ethers-v6@0.4.3
+  - @collabland/typechain-ethers-v6@0.4.3
 
 ## 8.0.2
 
@@ -34,7 +34,7 @@
 
 - Updated dependencies [c4720b9]
   - typechain@8.3.0
-  - @typechain/ethers-v6@0.4.2
+  - @collabland/typechain-ethers-v6@0.4.2
 
 ## 8.0.1
 
@@ -43,19 +43,19 @@
 - c2b3f1b: Support for the newest hardhat-ethers version
 - Updated dependencies [c2b3f1b]
 - Updated dependencies [cd4bb0f]
-  - @typechain/ethers-v6@0.4.1
+  - @collabland/typechain-ethers-v6@0.4.1
   - typechain@8.2.1
 
 ## 8.0.0
 
 ### Major Changes
 
-- 2380a8f: Added support for ethers v6 in @typechain/hardhat
+- 2380a8f: Added support for ethers v6 in @collabland/typechain-hardhat
 
 ### Patch Changes
 
 - Updated dependencies [2380a8f]
-  - @typechain/ethers-v6@0.4.0
+  - @collabland/typechain-ethers-v6@0.4.0
 
 ## 7.0.0
 
@@ -63,7 +63,7 @@
 
 - Updated dependencies [3eb6ed6]
 - Updated dependencies [15541e4]
-  - @typechain/ethers-v5@11.0.0
+  - @collabland/typechain-ethers-v5@11.0.0
   - typechain@8.2.0
 
 ## 6.1.6
@@ -72,14 +72,14 @@
 
 - Updated dependencies [5b0759d]
 - Updated dependencies [a036651]
-  - @typechain/ethers-v5@10.2.1
+  - @collabland/typechain-ethers-v5@10.2.1
 
 ## 6.1.5
 
 ### Patch Changes
 
 - Updated dependencies [31e6957]
-  - @typechain/ethers-v5@10.2.0
+  - @collabland/typechain-ethers-v5@10.2.0
 
 ## 6.1.4
 
@@ -87,7 +87,7 @@
 
 - Updated dependencies [bbc9656]
   - typechain@8.1.1
-  - @typechain/ethers-v5@10.1.1
+  - @collabland/typechain-ethers-v5@10.1.1
 
 ## 6.1.3
 
@@ -115,7 +115,7 @@
 - Updated dependencies [63691c4]
 - Updated dependencies [015abb2]
   - typechain@8.1.0
-  - @typechain/ethers-v5@10.1.0
+  - @collabland/typechain-ethers-v5@10.1.0
 
 ## 6.0.0
 
@@ -155,7 +155,7 @@
 - Updated dependencies [47ab651]
 - Updated dependencies [975a9dc]
 - Updated dependencies [e1f832c]
-  - @typechain/ethers-v5@10.0.0
+  - @collabland/typechain-ethers-v5@10.0.0
   - typechain@8.0.0
 
 ## 5.0.0

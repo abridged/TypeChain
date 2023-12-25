@@ -1,4 +1,4 @@
-# @typechain/ethers-v5
+# @collabland/typechain-ethers-v5
 
 ## 11.1.2
 

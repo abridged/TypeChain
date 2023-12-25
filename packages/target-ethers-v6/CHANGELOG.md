@@ -1,4 +1,4 @@
-# @typechain/ethers-v6
+# @collabland/typechain-ethers-v6
 
 ## 0.5.1
 
@@ -43,7 +43,7 @@
 
 ### Minor Changes
 
-- 2380a8f: Added support for ethers v6 in @typechain/hardhat
+- 2380a8f: Added support for ethers v6 in @collabland/typechain-hardhat
 
 ## 0.3.3
 

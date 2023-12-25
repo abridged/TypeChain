@@ -1,4 +1,4 @@
-# @typechain/truffle-v5
+# @collabland/typechain-truffle-v5
 
 ## 8.0.7
 

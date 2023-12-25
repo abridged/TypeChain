@@ -6,7 +6,7 @@
 
 - Updated dependencies [3469800]
   - typechain@8.3.2
-  - @typechain/truffle-v5@8.0.7
+  - @collabland/typechain-truffle-v5@8.0.7
 
 ## 0.0.8
 
@@ -14,7 +14,7 @@
 
 - Updated dependencies [9107713]
   - typechain@8.3.1
-  - @typechain/truffle-v5@8.0.6
+  - @collabland/typechain-truffle-v5@8.0.6
 
 ## 0.0.7
 
@@ -22,7 +22,7 @@
 
 - Updated dependencies [c4720b9]
   - typechain@8.3.0
-  - @typechain/truffle-v5@8.0.5
+  - @collabland/typechain-truffle-v5@8.0.5
 
 ## 0.0.6
 
@@ -30,7 +30,7 @@
 
 - Updated dependencies [cd4bb0f]
   - typechain@8.2.1
-  - @typechain/truffle-v5@8.0.4
+  - @collabland/typechain-truffle-v5@8.0.4
 
 ## 0.0.5
 
@@ -38,7 +38,7 @@
 
 - Updated dependencies [15541e4]
   - typechain@8.2.0
-  - @typechain/truffle-v5@8.0.3
+  - @collabland/typechain-truffle-v5@8.0.3
 
 ## 0.0.4
 
@@ -46,7 +46,7 @@
 
 - Updated dependencies [bbc9656]
   - typechain@8.1.1
-  - @typechain/truffle-v5@8.0.2
+  - @collabland/typechain-truffle-v5@8.0.2
 
 ## 0.0.3
 
@@ -54,7 +54,7 @@
 
 - Updated dependencies [63691c4]
   - typechain@8.1.0
-  - @typechain/truffle-v5@8.0.1
+  - @collabland/typechain-truffle-v5@8.0.1
 
 ## 0.0.2
 
@@ -68,4 +68,4 @@
 - Updated dependencies [975a9dc]
 - Updated dependencies [e1f832c]
   - typechain@8.0.0
-  - @typechain/truffle-v5@8.0.0
+  - @collabland/typechain-truffle-v5@8.0.0

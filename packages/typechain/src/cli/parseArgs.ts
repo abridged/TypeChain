@@ -29,7 +29,7 @@ export function parseArgs(): ParsedArgs {
       target: {
         type: String,
         description:
-          'One of ethers-v4, ethers-v5, truffle-v4, truffle-v5, web3-v1 or path to your custom target. Typechain will try to load package named: @typechain/<target>, so make sure that desired package is installed.',
+          'One of ethers-v4, ethers-v5, truffle-v4, truffle-v5, web3-v1 or path to your custom target. Typechain will try to load package named: @collabland/typechain-<target>, so make sure that desired package is installed.',
       },
       'out-dir': { type: String, optional: true, description: 'Output directory for generated files.' },
       'input-dir': {

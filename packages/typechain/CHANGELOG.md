@@ -165,7 +165,7 @@
 
 - 0ac4921: Propagate module resolution errors from inside of target.
 
-  Previously, when the version of `@typechain/ethers-v5` you were depending on was in some way broken, `typechain` would
+  Previously, when the version of `@collabland/typechain-ethers-v5` you were depending on was in some way broken, `typechain` would
   just say that it could not find a target. Now, an error message will explain _why_.
 
 ## 5.2.0

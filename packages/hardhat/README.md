@@ -20,19 +20,19 @@ Automatically generate TypeScript bindings for smartcontracts while using [Hardh
 If you use Ethers do:
 
 ```bash
-npm install --save-dev typechain @typechain/hardhat @typechain/ethers-v6
+npm install --save-dev typechain @collabland/typechain-hardhat @collabland/typechain-ethers-v6
 ```
 
 If you're a Truffle user you need:
 
 ```bash
-npm install --save-dev typechain @typechain/hardhat @typechain/truffle-v5
+npm install --save-dev typechain @collabland/typechain-hardhat @collabland/typechain-truffle-v5
 ```
 
 And add the following statements to your `hardhat.config.js`:
 
 ```javascript
-require('@typechain/hardhat')
+require('@collabland/typechain-hardhat')
 require('@nomicfoundation/hardhat-ethers')
 require('@nomicfoundation/hardhat-chai-matchers')
 ```
@@ -40,7 +40,7 @@ require('@nomicfoundation/hardhat-chai-matchers')
 Or, if you use TypeScript, add this to your `hardhat.config.ts`:
 
 ```typescript
-import '@typechain/hardhat'
+import '@collabland/typechain-hardhat'
 import '@nomicfoundation/hardhat-ethers'
 import '@nomicfoundation/hardhat-chai-matchers'
 ```

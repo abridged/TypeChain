@@ -1,4 +1,4 @@
-# @typechain/web3-v1
+# @collabland/typechain-web3-v1
 
 ## 6.0.7
 

@@ -1,5 +1,5 @@
 {
-  "name": "@typechain/web3-v1",
+  "name": "@collabland/typechain-web3-v1",
   "description": "🔌 TypeChain target for Web3-v1",
   "keywords": [
     "web3",
