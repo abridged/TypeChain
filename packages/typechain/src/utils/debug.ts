@@ -1,3 +1,3 @@
 import debugLib from 'debug'
 
-export const debug = debugLib('typechain')
+export const debug = debugLib('@collabland/typechain')

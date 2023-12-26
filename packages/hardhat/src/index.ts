@@ -3,7 +3,7 @@ import './type-extensions'
 import { TASK_CLEAN, TASK_COMPILE, TASK_COMPILE_SOLIDITY_COMPILE_JOBS } from 'hardhat/builtin-tasks/task-names'
 import { extendConfig, subtask, task, types } from 'hardhat/config'
 import { getFullyQualifiedName } from 'hardhat/utils/contract-names'
-import type { PublicConfig as RunTypeChainConfig } from 'typechain'
+import type { PublicConfig as RunTypeChainConfig } from '@collabland/typechain'
 
 import { getDefaultTypechainConfig } from './config'
 import { TASK_TYPECHAIN, TASK_TYPECHAIN_GENERATE_TYPES } from './constants'
@@ -67,7 +67,7 @@ subtask(TASK_TYPECHAIN_GENERATE_TYPES)
     }
     const cwd = config.paths.root
 
-    const { glob } = await import('typechain')
+    const { glob } = await import('@collabland/typechain')
     const allFiles = glob(cwd, [`${config.paths.artifacts}/!(build-info)/**/+([a-zA-Z0-9_]).json`])
     if (typechainCfg.externalArtifacts) {
       allFiles.push(...glob(cwd, typechainCfg.externalArtifacts, false))
@@ -87,7 +87,7 @@ subtask(TASK_TYPECHAIN_GENERATE_TYPES)
       },
     }
 
-    const { runTypeChain } = await import('typechain')
+    const { runTypeChain } = await import('@collabland/typechain')
     const result = await runTypeChain({
       ...typechainOptions,
       filesToProcess: needsFullRebuild ? allFiles : glob(cwd, artifactPaths), // only process changed files if not doing full rebuild

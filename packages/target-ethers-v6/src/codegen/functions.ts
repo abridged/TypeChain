@@ -9,7 +9,7 @@ import {
   getSignatureForFn,
   isConstant,
   isConstantFn,
-} from 'typechain'
+} from '@collabland/typechain'
 
 import { generateInputType, generateInputTypes, generateOutputTypes } from './types'
 

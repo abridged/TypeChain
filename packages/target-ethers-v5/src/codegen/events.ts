@@ -4,7 +4,7 @@ import {
   EventDeclaration,
   getFullSignatureAsSymbolForEvent,
   getFullSignatureForEvent,
-} from 'typechain'
+} from '@collabland/typechain'
 
 import { generateInputType, generateOutputComplexTypeAsArray, generateOutputComplexTypesAsObject } from './types'
 

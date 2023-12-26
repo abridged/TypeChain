@@ -4,7 +4,7 @@ import {
   EventArgDeclaration,
   EventDeclaration,
   getFullSignatureAsSymbolForEvent,
-} from 'typechain'
+} from '@collabland/typechain'
 
 import {
   generateInputComplexTypeAsTuple,

@@ -7,7 +7,7 @@ import {
   EventDeclaration,
   FunctionDeclaration,
   StructType,
-} from 'typechain'
+} from '@collabland/typechain'
 
 import { FACTORY_POSTFIX, STRUCT_INPUT_POSTFIX } from '../common'
 import {

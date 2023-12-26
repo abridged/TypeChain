@@ -21,7 +21,7 @@ import {
   parseContractPath,
   shortenFullJsonFilePath,
   TypeChainTarget,
-} from 'typechain'
+} from '@collabland/typechain'
 
 import { codegenAbstractContractFactory, codegenContractFactory, codegenContractTypings } from './codegen'
 import { generateHardhatHelper } from './codegen/hardhat'
