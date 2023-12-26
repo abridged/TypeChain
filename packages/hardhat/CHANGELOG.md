@@ -1,5 +1,16 @@
 # @collabland/typechain-hardhat
 
+## 9.2.0
+
+### Minor Changes
+
+- 740e5fa: Fix ESM code gen
+
+### Patch Changes
+
+- Updated dependencies [740e5fa]
+  - @collabland/typechain@8.4.0
+
 ## 9.1.0
 
 ### Minor Changes

@@ -1,7 +1,7 @@
 {
   "name": "example-ethers-v5-nodenext",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -10,10 +10,10 @@
     "typecheck": "pnpm generate-types && tsc --noEmit"
   },
   "devDependencies": {
-    "@collabland/typechain-ethers-v5": "workspace:^11.1.2",
+    "@collabland/typechain-ethers-v5": "workspace:^11.2.0",
     "@types/bn.js": "^5.1.0",
     "ts-node": "^10.7.0",
-    "@collabland/typechain": "workspace:^8.3.2",
+    "@collabland/typechain": "workspace:^8.4.0",
     "typescript": "^4.9.5"
   },
   "dependencies": {

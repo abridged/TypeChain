@@ -1,5 +1,17 @@
 # test-e2e
 
+## 9.10.0
+
+### Minor Changes
+
+- 740e5fa: Fix ESM code gen
+
+### Patch Changes
+
+- Updated dependencies [740e5fa]
+  - @collabland/typechain-ethers-v5@11.2.0
+  - @collabland/typechain@8.4.0
+
 ## 9.9.19
 
 ### Patch Changes

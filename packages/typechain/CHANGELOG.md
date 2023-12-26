@@ -1,5 +1,11 @@
 # typechain
 
+## 8.4.0
+
+### Minor Changes
+
+- 740e5fa: Fix ESM code gen
+
 ## 8.3.2
 
 ### Patch Changes
@@ -165,8 +171,8 @@
 
 - 0ac4921: Propagate module resolution errors from inside of target.
 
-  Previously, when the version of `@collabland/typechain-ethers-v5` you were depending on was in some way broken, `typechain` would
-  just say that it could not find a target. Now, an error message will explain _why_.
+  Previously, when the version of `@collabland/typechain-ethers-v5` you were depending on was in some way broken,
+  `typechain` would just say that it could not find a target. Now, an error message will explain _why_.
 
 ## 5.2.0
 
