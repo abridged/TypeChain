@@ -1,7 +1,7 @@
+import { runTypeChain } from '@collabland/typechain'
 import { expect } from 'earljs'
 import { readFile, remove } from 'fs-extra'
 import * as path from 'path'
-import { runTypeChain } from '@collabland/typechain'
 
 describe('ts-nocheck', () => {
   it('is added to the top of the file, when "tsNocheck" config flag is "true"', async () => {

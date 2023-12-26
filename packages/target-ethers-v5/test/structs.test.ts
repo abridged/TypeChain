@@ -1,6 +1,6 @@
+import { StructName } from '@collabland/typechain'
 import { expect } from 'earljs'
 import { format } from 'prettier'
-import { StructName } from '@collabland/typechain'
 
 import { generateStructTypes } from '../src/codegen/structs'
 

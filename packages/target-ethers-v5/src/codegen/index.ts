@@ -1,4 +1,3 @@
-import { isString, values } from 'lodash'
 import {
   BytecodeWithLinkReferences,
   CodegenConfig,
@@ -8,6 +7,7 @@ import {
   FunctionDeclaration,
   StructType,
 } from '@collabland/typechain'
+import { isString, values } from 'lodash'
 
 import { FACTORY_POSTFIX, STRUCT_INPUT_POSTFIX } from '../common'
 import {

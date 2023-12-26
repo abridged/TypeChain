@@ -1,7 +1,3 @@
-import { readFileSync } from 'fs'
-import { compact, partition, uniqBy } from 'lodash'
-import { join, relative, resolve } from 'path'
-import { Dictionary } from 'ts-essentials'
 import {
   BytecodeWithLinkReferences,
   CodegenConfig,
@@ -21,6 +17,10 @@ import {
   shortenFullJsonFilePath,
   TypeChainTarget,
 } from '@collabland/typechain'
+import { readFileSync } from 'fs'
+import { compact, partition, uniqBy } from 'lodash'
+import { join, relative, resolve } from 'path'
+import { Dictionary } from 'ts-essentials'
 
 import { codegenAbstractContractFactory, codegenContractFactory, codegenContractTypings } from './codegen'
 import { generateHardhatHelper } from './codegen/hardhat'

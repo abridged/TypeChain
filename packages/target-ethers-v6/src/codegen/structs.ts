@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { groupBy } from 'lodash'
 import { StructName, StructType } from '@collabland/typechain'
+import { groupBy } from 'lodash'
 
 import { STRUCT_INPUT_POSTFIX, STRUCT_OUTPUT_POSTFIX } from '../common'
 import { generateInputType, generateOutputType } from './types'

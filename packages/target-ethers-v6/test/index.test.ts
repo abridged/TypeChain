@@ -1,6 +1,6 @@
+import { Config } from '@collabland/typechain'
 import { expect } from 'earljs'
 import { join } from 'path'
-import { Config } from '@collabland/typechain'
 
 import EthersTarget from '../src/index'
 

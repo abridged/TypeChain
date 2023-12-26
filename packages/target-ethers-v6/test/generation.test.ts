@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { expect } from 'earljs'
 import { CodegenConfig, Contract, EventDeclaration, parse, RawAbiDefinition } from '@collabland/typechain'
+import { expect } from 'earljs'
 
 import { codegenContractFactory } from '../src/codegen'
 import { generateEventTypeExport } from '../src/codegen/events'
