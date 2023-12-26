@@ -23,6 +23,6 @@
     "ethers": "~6.3.0",
     "hardhat": "^2.9.9",
     "test-utils": "1.0.0",
-     "@collabland/typechain": "workspace:^8.3.2"
+    "@collabland/typechain": "workspace:^8.3.2"
   }
 }
