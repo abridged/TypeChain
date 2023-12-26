@@ -23,6 +23,7 @@ module.exports = {
     'simple-import-sort/exports': 'error',
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
+    '@typescript-eslint/restrict-plus-operands': 'off',
     'accessor-pairs': 'error',
     'constructor-super': 'error',
     eqeqeq: [
